@@ -20,8 +20,8 @@ partition processor then restarts in a loop on the same invocation.
 | `0x8000` (unassigned notification id) | not tested | panic, crash loop | not tested | RT0012, retried |
 | `0x0201` (control range) | not tested | no panic, retried | not tested | not tested |
 
-- Issue: _to be opened_
-- Fix: [`pedroteixeira/restate@fix/invoker-custom-message-panic`](https://github.com/pedroteixeira/restate/tree/fix/invoker-custom-message-panic), PR _to be opened_
+- Issue: [restatedev/restate#6061](https://github.com/restatedev/restate/issues/6061)
+- Fix: [restatedev/restate#6062](https://github.com/restatedev/restate/pull/6062)
 
 ## Lean model (`lean/`)
 
