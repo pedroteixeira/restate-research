@@ -1,0 +1,8 @@
+name = "restate_lean"
+defaultTargets = ["Header"]
+
+# Header.lean: model of the protocol message header; every theorem in it is proved.
+# Refute.lean is deliberately not a target: its bv_decide calls fail with counterexamples.
+# Run it with `lake env lean Refute.lean`.
+[[lean_lib]]
+name = "Header"
